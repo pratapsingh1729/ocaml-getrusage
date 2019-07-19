@@ -1,0 +1,4 @@
+(library
+  (name             ocaml_getrusage)
+  (public_name      ocaml-getrusage)
+  (c_names          ocaml_getrusage))

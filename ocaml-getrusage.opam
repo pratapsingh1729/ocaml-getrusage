@@ -1,0 +1,15 @@
+opam-version: "2.0"
+name: "ocaml-getrusage"
+version: "0.1"
+synopsis: "Call getrusage from ocaml"
+description: "Call getrusage from ocaml"
+maintainer: "Pratap Singh <pratapsingh1729@gmail.com>"
+authors: "Pratap Singh <pratapsingh1729@gmail.com>"
+homepage: ""
+bug-reports: ""
+license: "MIT"
+depends: [ "ocaml" "dune" {build} ]
+build: [
+  [ "dune" "subst" ] {pinned}
+  [ "dune" "build" "-p" name "-j" jobs ]
+]
