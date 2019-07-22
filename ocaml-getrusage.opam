@@ -5,8 +5,8 @@ synopsis: "Call getrusage from ocaml"
 description: "Call getrusage from ocaml"
 maintainer: "Pratap Singh <pratapsingh1729@gmail.com>"
 authors: "Pratap Singh <pratapsingh1729@gmail.com>"
-homepage: ""
-bug-reports: ""
+homepage: "https://github.com/pratapsingh1729/ocaml-getrusage"
+bug-reports: "https://github.com/pratapsingh1729/ocaml-getrusage/issues"
 license: "MIT"
 depends: [ "ocaml" "dune" {build} ]
 build: [

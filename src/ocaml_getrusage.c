@@ -2,9 +2,9 @@
 #include <sys/time.h>
 #include <sys/resource.h>
 #include <stdio.h>
-#include </Users/pratap/.opam/4.07.0/lib/ocaml/caml/mlvalues.h>
-#include </Users/pratap/.opam/4.07.0/lib/ocaml/caml/alloc.h>
-#include </Users/pratap/.opam/4.07.0/lib/ocaml/caml/memory.h>
+#include <caml/mlvalues.h>
+#include <caml/alloc.h>
+#include <caml/memory.h>
 
 
 value caml_getrusage_wrapper(value unit)
