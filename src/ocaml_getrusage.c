@@ -1,7 +1,6 @@
 #define CAML_NAME_SPACE
 #include <sys/time.h>
 #include <sys/resource.h>
-#include <stdio.h>
 #include <caml/mlvalues.h>
 #include <caml/alloc.h>
 #include <caml/memory.h>

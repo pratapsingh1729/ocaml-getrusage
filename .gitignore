@@ -12,3 +12,4 @@ _build/
 .merlin
 *.install
 *.code-workspace
+.vscode/*
