@@ -24,6 +24,6 @@ type rusage =
 
 val getrusage : unit -> rusage 
 (** `getrusage ()` returns an `rusage` record containing 
-    the results of the Unix system call `rusage()`. 
+    the results of the Unix system call `getrusage()`. 
     Run `man getrusage` in a terminal to determine the
     units used on your system. *)
